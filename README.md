@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>OOP school library</b></h3>
+  <h3><b>Ruby TDD project</b></h3>
 
 </div>
 
@@ -9,26 +9,25 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Install](#install)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Ruby TDD project\] ](#-ruby-tdd-project-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Setup](#setup)
+    - [Install](#install)
+  - [👥 Authors ](#-authors-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [OOP school library] <a name="about-project"></a>
+# 📖 [Ruby TDD project] <a name="about-project"></a>
 
-**[OOP school library]** is a tool to record what books are in the library and who borrows them. The app will allow to: Add new students or teachers. Add new books. Save records of who borrowed a given book and when. And all of this will be built in a beautiful and well-organized way!
+**[Ruby TDD project]** this project will implement a class with some methods, but by doing test-driven development (TDD). The idea is to write tests first and then the code!
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,45 +44,36 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Add new students or teachers**
-- **Add new books**
-- **Save records of who borrowed a given book and when**
-- **Decorator pattern**
-- **Associations**
-- **Basic UI**
-
+- **Understand the TDD concept**
+- **Rspec unit tests with mocks**
+- **Unit tests using Rspec**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a>
 
-Coming soon
+<!-- Coming soon
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
 To get a local copy up and running, follow these steps.
-
-
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-
 Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/batoolfatima2135/school-library.git
+  git clone https://github.com/batoolfatima2135/solver.git
 ```
-
 
 ### Install
 
@@ -92,7 +82,7 @@ Install this project with:
 Example command:
 
 ```sh
-  cd my-project
+  cd my-folder
   gem install
 ```
 
@@ -102,24 +92,20 @@ Example command:
 
 ## 👥 Authors <a name="authors"></a>
 
-
-
 👤 **Batool Fatima**
 
 - GitHub: [@githubhandle](https://github.com/batoolfatima2135)
 - Twitter: [@twitterhandle](https://twitter.com/batool2135)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/batool-fatima-515531196/)
 
+👤 **MoFuhidy**
+
+- GitHub: [@mofuhidy](https://github.com/Mofuhidy)
+- LinkedIn: [mofuhidy](https://linkedin.com/in/mo-fuhidy)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Web interface**
-- [ ] **unit tests**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -135,7 +121,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
 If you like this project give it a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -148,12 +133,10 @@ I would like to thank microverse for giving me chance to work on this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

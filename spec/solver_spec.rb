@@ -33,7 +33,7 @@ describe Solver do
     end
   end
 
-  context '#fizzbuzz' do 
+  context '#fizzbuzz' do
     it 'should return "fizz" when n is divisible by 3' do
       solver = described_class.new
       expect(solver.fizzbuzz(9)).to eq 'fizz'
@@ -52,7 +52,7 @@ describe Solver do
     it 'should take one argument' do
       expect(Solver.new.method(:fizzbuzz).arity).to eq(1)
     end
-    
+
     it 'should return string of number when nothing match' do
       solver = described_class.new
       expect(solver.fizzbuzz(7)).to eq '7'
