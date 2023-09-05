@@ -32,4 +32,11 @@ describe Solver do
       expect(solver.reverse('hello')).to eq 'olleh'
     end
   end
+
+  context '#fizzbuzz' do 
+    it 'should return "fizz" when n is divisible by 3' do
+      solver = described_class.new
+      expect(solver.fizzbuzz(9)).to eq 'fizz'
+    end
+  end
 end
