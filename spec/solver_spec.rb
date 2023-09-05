@@ -49,5 +49,13 @@ describe Solver do
       expect(solver.fizzbuzz(15)).to eq 'fizzbuzz'
     end
 
+    it 'should take one argument' do
+      expect(Solver.new.method(:fizzbuzz).arity).to eq(1)
+    end
+    
+    it 'should return string of number when nothing match' do
+      solver = described_class.new
+      expect(solver.fizzbuzz(7)).to eq '7'
+    end
   end
 end
