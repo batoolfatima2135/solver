@@ -43,6 +43,11 @@ describe Solver do
       solver = described_class.new
       expect(solver.fizzbuzz(10)).to eq 'buzz'
     end
-    
+
+    it 'should return "fizzbuzz" when n is divisible by 5 and 3' do
+      solver = described_class.new
+      expect(solver.fizzbuzz(15)).to eq 'fizzbuzz'
+    end
+
   end
 end
