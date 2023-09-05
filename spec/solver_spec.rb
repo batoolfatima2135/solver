@@ -2,7 +2,6 @@ require_relative '../solver'
 
 describe Solver do
   context '#factorial' do
-    
     it 'accepts 1 arguments' do
       expect(Solver.new.method(:factorial).arity).to eq(1)
     end
@@ -19,7 +18,7 @@ describe Solver do
 
     it 'Factorial should raise exeption on negative number' do
       solver = described_class.new
-      expect {solver.factorial(-5)}.to raise_error('Factorial is undefined for negative numbers')
+      expect { solver.factorial(-5) }.to raise_error('Factorial is undefined for negative numbers')
     end
   end
 
