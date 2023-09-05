@@ -9,11 +9,13 @@ class Solver
     word.reverse
   end
 
-  def fizzbuzz n
-   if n % 3 == 0
+  def fizzbuzz num
+   if num % 3 == 0
     'fizz'
+   elsif num % 5 == 0
+    'buzz'
    else
-    n.to_s
+    num.to_s
    end
   end
 end
